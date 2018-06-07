@@ -1,0 +1,8 @@
+C:\Users\jortiz\Documents\Visual Studio 2015\Projects\J_SellPoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\jortiz\Documents\Visual Studio 2015\Projects\J_SellPoint\J_SellPoint.UnitTest\bin\Debug\J_SellPoint.UnitTest.dll
+C:\Users\jortiz\Documents\Visual Studio 2015\Projects\J_SellPoint\J_SellPoint.UnitTest\bin\Debug\J_SellPoint.UnitTest.pdb
+C:\Users\jortiz\Documents\Visual Studio 2015\Projects\J_SellPoint\J_SellPoint.UnitTest\bin\Debug\J_SellPoint.exe
+C:\Users\jortiz\Documents\Visual Studio 2015\Projects\J_SellPoint\J_SellPoint.UnitTest\bin\Debug\J_SellPoint.pdb
+C:\Users\jortiz\Documents\Visual Studio 2015\Projects\J_SellPoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.dll
+C:\Users\jortiz\Documents\Visual Studio 2015\Projects\J_SellPoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.pdb
+C:\Users\jortiz\Documents\Visual Studio 2015\Projects\J_SellPoint\J_SellPoint.UnitTest\bin\Debug\J_SellPoint.UnitTest.dll.config

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J_SellPoint", "J_SellPoint\J_SellPoint.csproj", "{56941738-4076-4E4A-A541-16BA032F34EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J_SellPoint.UnitTest", "J_SellPoint.UnitTest\J_SellPoint.UnitTest.csproj", "{0BEC73CD-95BB-4B06-9681-209A111B0723}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56941738-4076-4E4A-A541-16BA032F34EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56941738-4076-4E4A-A541-16BA032F34EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56941738-4076-4E4A-A541-16BA032F34EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56941738-4076-4E4A-A541-16BA032F34EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BEC73CD-95BB-4B06-9681-209A111B0723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BEC73CD-95BB-4B06-9681-209A111B0723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BEC73CD-95BB-4B06-9681-209A111B0723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BEC73CD-95BB-4B06-9681-209A111B0723}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
