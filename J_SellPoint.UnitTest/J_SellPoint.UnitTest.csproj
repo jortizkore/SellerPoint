@@ -52,9 +52,11 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="PurchasesUnitTest.cs" />
     <Compile Include="LossesUnitTest.cs" />
     <Compile Include="ProductUnitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalesUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\J_SellPoint\J_SellPoint.csproj">

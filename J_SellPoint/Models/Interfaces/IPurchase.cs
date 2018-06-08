@@ -10,7 +10,8 @@ namespace J_SellPoint.Models.Interfaces
     interface IPurchase
     {
         bool Save(Product p, int units);
-        List<Purchase> GetPurchaseslList(int? month, int? year);
-        DataTable GetPurchaseslTable(int? month, int? year);
+        List<Purchase> GetPurchasesList(int? prod, int? month, int? year);
+        DataTable GetPurchasesTable(int? prod, int? month, int? year);
+
     }
 }

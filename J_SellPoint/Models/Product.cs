@@ -94,15 +94,8 @@ namespace J_SellPoint.Models
 
         public List<Product> GetAllProducts()
         {
-            List<Product> returnList = new List<Product>();
             string selectcommand = "SELECT * FROM Products";
-
-            foreach (DataRow row in con.GetData(selectcommand).Rows)
-            {
-                returnList.Add(ProductFromRow(row));
-            }
-            
-            return returnList;
+            return (from DataRow row in con.GetData(selectcommand).Rows select ProductFromRow(row)).ToList();
         }
 
         public DataTable GetProductsTable()
@@ -117,7 +110,7 @@ namespace J_SellPoint.Models
 
         private Product ProductFromRow(DataRow r)
         {
-            Product p = new Product(
+            var p = new Product(
                 int.Parse(r["ID_Product"].ToString()),
                 r["Product_Description"].ToString(),
                 decimal.Parse(r["Cost"].ToString()),
