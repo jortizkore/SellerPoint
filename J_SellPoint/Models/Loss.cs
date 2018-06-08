@@ -54,7 +54,7 @@ namespace J_SellPoint.Models
                 {
                     ID = int.Parse(row["ID_loose"].ToString()), Comment = row["Comment"].ToString(),
                     Date = DateTime.Parse(row["Reported_Date"].ToString()), Cost = decimal.Parse(row["Cost"].ToString()),
-                    LossProduct = int.Parse(row["Product_ID"].ToString()), LostUnits = int.Parse(row["LostUnits"].ToString()),
+                    LossProduct = int.Parse(row["Product_ID"].ToString()), LostUnits = int.Parse(row["Lost_Units"].ToString()),
                     TotalLost = decimal.Parse(row["Total_Lost"].ToString())
                 }).ToList();
         }

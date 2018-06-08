@@ -3,26 +3,25 @@ using System.Text;
 using System.Collections.Generic;
 using J_SellPoint.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using J_SellPoint.Classes;
 
 namespace J_SellPoint.UnitTest
 {
     /// <summary>
-    /// Summary description for LossesUnitTest
+    /// Summary description for SalesUnitTest
     /// </summary>
     [TestClass]
-    public class PurchasesUnitTest
+    public class SalesUnitTest
     {
-        int TestProductID = 12;
-        int PurchaseQuantity = 1;
-        public PurchasesUnitTest()
+        private int idTestProd = 12;
+        private int sellQuantity = 1;
+        public SalesUnitTest()
         {
             //
             // TODO: Add constructor logic here
             //
         }
 
-        private TestContext _testContextInstance;
+        private TestContext testContextInstance;
 
         /// <summary>
         ///Gets or sets the test context which provides
@@ -32,11 +31,11 @@ namespace J_SellPoint.UnitTest
         {
             get
             {
-                return _testContextInstance;
+                return testContextInstance;
             }
             set
             {
-                _testContextInstance = value;
+                testContextInstance = value;
             }
         }
 
@@ -63,37 +62,47 @@ namespace J_SellPoint.UnitTest
         #endregion
 
         [TestMethod]
-        public void SaveUnitTest_WhenPurchaseObjectIsFilled_ShouldBeTrue()
+        public void SaveSale_WhenSaleIsFilled_ShouldBeTrue()
         {
-            var Purchase = new Purchase();
-            var p = new Product();
-            p.Load(TestProductID);
-            Purchase.Comment = $"Adding a purchase for {p.Description} x {PurchaseQuantity}";
-            Assert.IsTrue(Purchase.Save(p, PurchaseQuantity));
-        }
-        [TestMethod]
-        public void SaveUnitTest_WhenPurchaseObjectIdDoesntExist_ShouldBeFalse()
-        {
-            var Purchase = new Purchase();
-            var p = new Product();
-            p.Load(TestProductID);
-            p.Id = 0;
-            Assert.IsFalse(Purchase.Save(p, PurchaseQuantity));
+            var sale = new Sale();
+            var prod = new Product();
+
+            prod.Load(idTestProd);
+            Assert.IsTrue(sale.Save(prod, sellQuantity));
         }
 
         [TestMethod]
-        public void SaveUnitTest_WhenSaveAPurchase_ProductQuantityGetsIncremented()
+        public void SaveSale_WhenSaleIsEmpty_ShouldBeFalse()
         {
-            var purchase = new Purchase();
-            var p = new Product();
-            p.Load(TestProductID);
-            var expectecResult = p.Quantity + PurchaseQuantity;
-            purchase.Comment = $"Testing Product purchase | {p.Description} x {PurchaseQuantity}";
-            purchase.Save(p, PurchaseQuantity);
-            p.Load(TestProductID);
-            Assert.AreEqual(expectecResult, p.Quantity);
+            var sale = new Sale();
+            var prod = new Product();
+            Assert.IsFalse(sale.Save(prod, sellQuantity));
         }
 
+        [TestMethod]
+        public void SaveSale_WhenSaleHaveInvalidProd_ShouldBeFalse()
+        {
+            var sale = new Sale();
+            var prod = new Product();
+            prod.Load(idTestProd);
+            prod.Id = 0;
+            Assert.IsFalse(sale.Save(prod, sellQuantity));
+        }
+
+        [TestMethod]
+        public void SaveSale_WhenSaleIsDone_ShouldDicrementProdQuantity()
+        {
+            var sale = new Sale();
+            var prod = new Product();
+
+            prod.Load(idTestProd);
+            var expectedQuantity = prod.Quantity - sellQuantity; // We expect quantity to dicrement
+
+            sale.Save(prod, sellQuantity);
+            prod.Load(idTestProd);          // Refresh prod quantity
+
+            Assert.AreEqual(prod.Quantity, expectedQuantity);
+        }
 
     }
 }

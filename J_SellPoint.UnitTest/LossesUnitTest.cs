@@ -83,7 +83,7 @@ namespace J_SellPoint.UnitTest
         [TestMethod]
         public void SaveUnitTest_WhenSaveALost_ProductQuantityGetsReduced()
         {
-            var LostQuantity = 10;
+            var LostQuantity = 1;
             var TestProductID = 2;
             var loss = new Loss();
             var p = new Product();
