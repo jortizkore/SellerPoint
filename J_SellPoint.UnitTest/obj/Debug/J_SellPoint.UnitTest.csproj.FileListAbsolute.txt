@@ -6,3 +6,14 @@ C:\Users\jortiz\Documents\Visual Studio 2015\Projects\J_SellPoint\J_SellPoint.Un
 C:\Users\jortiz\Documents\Visual Studio 2015\Projects\J_SellPoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.csprojResolveAssemblyReference.cache
 C:\Users\jortiz\Documents\Visual Studio 2015\Projects\J_SellPoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.dll
 C:\Users\jortiz\Documents\Visual Studio 2015\Projects\J_SellPoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.pdb
+D:\SellerPoint\J_SellPoint.UnitTest\bin\Debug\J_SellPoint.UnitTest.dll.config
+D:\SellerPoint\J_SellPoint.UnitTest\bin\Debug\J_SellPoint.UnitTest.dll
+D:\SellerPoint\J_SellPoint.UnitTest\bin\Debug\J_SellPoint.UnitTest.pdb
+D:\SellerPoint\J_SellPoint.UnitTest\bin\Debug\J_SellPoint.exe
+D:\SellerPoint\J_SellPoint.UnitTest\bin\Debug\J_SellPoint.pdb
+D:\SellerPoint\J_SellPoint.UnitTest\bin\Debug\J_SellPoint.exe.config
+D:\SellerPoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.csprojAssemblyReference.cache
+D:\SellerPoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.csproj.CoreCompileInputs.cache
+D:\SellerPoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.csproj.CopyComplete
+D:\SellerPoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.dll
+D:\SellerPoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.pdb
