@@ -8,3 +8,14 @@ C:\Users\jortiz\Documents\Visual Studio 2015\Projects\J_SellPoint\J_SellPoint\ob
 C:\Users\jortiz\Documents\Visual Studio 2015\Projects\J_SellPoint\J_SellPoint\obj\Debug\J_SellPoint.csproj.GenerateResource.Cache
 C:\Users\jortiz\Documents\Visual Studio 2015\Projects\J_SellPoint\J_SellPoint\obj\Debug\J_SellPoint.exe
 C:\Users\jortiz\Documents\Visual Studio 2015\Projects\J_SellPoint\J_SellPoint\obj\Debug\J_SellPoint.pdb
+D:\SellerPoint\J_SellPoint\bin\Debug\J_SellPoint.exe.config
+D:\SellerPoint\J_SellPoint\bin\Debug\J_SellPoint.exe
+D:\SellerPoint\J_SellPoint\bin\Debug\J_SellPoint.pdb
+D:\SellerPoint\J_SellPoint\obj\Debug\J_SellPoint.csprojAssemblyReference.cache
+D:\SellerPoint\J_SellPoint\obj\Debug\J_SellPoint.Forms.Maintenances.FrmProducts.resources
+D:\SellerPoint\J_SellPoint\obj\Debug\J_SellPoint.FrmDashboard.resources
+D:\SellerPoint\J_SellPoint\obj\Debug\J_SellPoint.Properties.Resources.resources
+D:\SellerPoint\J_SellPoint\obj\Debug\J_SellPoint.csproj.GenerateResource.cache
+D:\SellerPoint\J_SellPoint\obj\Debug\J_SellPoint.csproj.CoreCompileInputs.cache
+D:\SellerPoint\J_SellPoint\obj\Debug\J_SellPoint.exe
+D:\SellerPoint\J_SellPoint\obj\Debug\J_SellPoint.pdb
