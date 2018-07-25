@@ -17,3 +17,14 @@ D:\SellerPoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.csproj.CoreCo
 D:\SellerPoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.csproj.CopyComplete
 D:\SellerPoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.dll
 D:\SellerPoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.pdb
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint.UnitTest\bin\Debug\J_SellPoint.UnitTest.dll.config
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint.UnitTest\bin\Debug\J_SellPoint.UnitTest.dll
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint.UnitTest\bin\Debug\J_SellPoint.UnitTest.pdb
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint.UnitTest\bin\Debug\J_SellPoint.exe
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint.UnitTest\bin\Debug\J_SellPoint.pdb
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint.UnitTest\bin\Debug\J_SellPoint.exe.config
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.csprojAssemblyReference.cache
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.csproj.CopyComplete
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.dll
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint.UnitTest\obj\Debug\J_SellPoint.UnitTest.pdb
