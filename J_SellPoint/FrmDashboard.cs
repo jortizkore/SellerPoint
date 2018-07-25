@@ -23,5 +23,16 @@ namespace J_SellPoint
             Forms.Maintenances.FrmProducts frm = new FrmProducts();
             frm.Show();
         }
+
+        private void productsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmProducts frmProducts = new FrmProducts();
+            frmProducts.Show();
+        }
+
+        private void accountsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -19,3 +19,14 @@ D:\SellerPoint\J_SellPoint\obj\Debug\J_SellPoint.csproj.GenerateResource.cache
 D:\SellerPoint\J_SellPoint\obj\Debug\J_SellPoint.csproj.CoreCompileInputs.cache
 D:\SellerPoint\J_SellPoint\obj\Debug\J_SellPoint.exe
 D:\SellerPoint\J_SellPoint\obj\Debug\J_SellPoint.pdb
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint\bin\Debug\J_SellPoint.exe.config
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint\bin\Debug\J_SellPoint.exe
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint\bin\Debug\J_SellPoint.pdb
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint\obj\Debug\J_SellPoint.csprojAssemblyReference.cache
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint\obj\Debug\J_SellPoint.Forms.Maintenances.FrmProducts.resources
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint\obj\Debug\J_SellPoint.FrmDashboard.resources
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint\obj\Debug\J_SellPoint.Properties.Resources.resources
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint\obj\Debug\J_SellPoint.csproj.GenerateResource.cache
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint\obj\Debug\J_SellPoint.csproj.CoreCompileInputs.cache
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint\obj\Debug\J_SellPoint.exe
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint\obj\Debug\J_SellPoint.pdb
