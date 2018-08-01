@@ -32,6 +32,12 @@ namespace J_SellPoint
             MessageBox.Show(message, @"Alert", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
         }
 
+        public static bool Ask(string Question)
+        {
+            var answer = MessageBox.Show(Question, @"Are you sure?", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            return answer == DialogResult.Yes?true:false;
+        }
+
         // Restaura los valores de los tex, checkbox, combobox
         public static void CleanFormText(Control.ControlCollection controls)
         {

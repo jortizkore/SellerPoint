@@ -54,7 +54,7 @@ namespace J_SellPoint.Models
                 {
                     ID = int.Parse(row["ID_loose"].ToString()), Comment = row["Comment"].ToString(),
                     Date = DateTime.Parse(row["Reported_Date"].ToString()), Cost = decimal.Parse(row["Cost"].ToString()),
-                    LossProduct = int.Parse(row["Product_ID"].ToString()), LostUnits = int.Parse(row["Lost_Units"].ToString()),
+                    LossProduct = int.Parse(row["ID_Product"].ToString()), LostUnits = int.Parse(row["Lost_Units"].ToString()),
                     TotalLost = decimal.Parse(row["Total_Lost"].ToString())
                 }).ToList();
         }
@@ -91,7 +91,7 @@ namespace J_SellPoint.Models
             con.Command.Parameters.Add("@Cost", SqlDbType.Decimal).Value = p.Cost;
             con.Command.Parameters.Add("@LostUnits", SqlDbType.Int).Value = quantity;
             con.Command.Parameters.Add("@Total_Lost", SqlDbType.Decimal).Value = p.Cost * quantity;
-            con.Command.Parameters.Add("@Comment", SqlDbType.VarChar).Value = Comment;
+            con.Command.Parameters.Add("@comment", SqlDbType.VarChar).Value = Comment;
             return con.ExecCommand();
         }
     }

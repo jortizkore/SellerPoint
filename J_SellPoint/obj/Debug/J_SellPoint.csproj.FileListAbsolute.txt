@@ -30,3 +30,4 @@ C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint\ob
 C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint\obj\Debug\J_SellPoint.csproj.CoreCompileInputs.cache
 C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint\obj\Debug\J_SellPoint.exe
 C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint\obj\Debug\J_SellPoint.pdb
+C:\Users\jortiz\OneDrive - KORE Wireless\Desktop\Doc\JSellerpoint\J_SellPoint\obj\Debug\J_SellPoint.Forms.Process.FrmLosses.resources
