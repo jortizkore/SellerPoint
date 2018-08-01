@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using J_SellPoint.Forms.Maintenances;
+using J_SellPoint.Forms.Process;
 
 namespace J_SellPoint
 {
@@ -33,6 +34,12 @@ namespace J_SellPoint
         private void accountsToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void perdidasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmLosses frmLosses = new FrmLosses();
+            frmLosses.Show();
         }
     }
 }
